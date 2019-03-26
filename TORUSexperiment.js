@@ -7,13 +7,18 @@ function setup() {
   background(0);
   slider = createSlider(0.01, 100, 0.01, 0.01);
   slider.position(1000, 90);
-  slider.style('width', '300px');
+  slider.style('width', '260px');
+  slider.style('background', 'red');
   slider2 = createSlider(0, 1000, 0, 0.01);
   slider2.position(1000, 120);
-  slider2.style('width', '300px');
+  slider2.style('width', '260px');
   slider3 = createSlider(0, 100, 0, 0.01);
   slider3.position(1000, 150);
-  slider3.style('width', '300px');
+  slider3.style('width', '260px');
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -34,45 +39,4 @@ function draw() {
     if (mouseIsPressed) {
       background(0);
     }
-
-    /*
-  if (mouseIsPressed === true) {
-    normalMaterial();
-    translate(50, 50, 10);
-    push();
-    rotateZ(frameCount * 0.01);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    torus(400, 20);
-    pop();
-  }
-*/
-
-
-  /* if (mouseIsPressed === true) {
-      translate(-240, 0, 0);
-          normalMaterial(); 
-          push();
-          rotateZ(frameCount * 0.01);
-          rotateX(frameCount * 0.01);
-          rotateY(frameCount * 0.01);
-          torus(900, 20);
-          pop();
-  }
-  
-    if (mouseIsPressed) {
-      background(0);
-    }
-    else {
-      translate(-240, 0, 0);
-      normalMaterial(); 
-      push();
-      rotateZ(frameCount * 0.01);
-      rotateX(frameCount * 0.01);
-      rotateY(frameCount * 0.01);
-      torus(710, 20);
-      pop();
-
-    }
-    */
 }
