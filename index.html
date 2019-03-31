@@ -1,37 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="TORUSexperiment.css" type="text/css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.js"></script>
-    <script type="text/javascript" src="TORUSexperiment.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
     <title>TORUS experiment.</title>
 </head>
+
 <body>
     <h1><a href="https://en.wikipedia.org/wiki/Torus" target="_blank">TORUS</a> <i>experiment</i></h1>
+
     <div id="text1">
-        <p>How to play:
+        <p>
+            1. Adjust the variables, and you will have something odd.
             <br>
-            1. Choose from input range on the right, and you will have something odd
-            <br>
-            2. Click, clear the canvas, make another choice, and you will have something unusual again
+            2. Click, clear the canvas, make another choice, and you will have something unusual again.
             <br>
             3. Let the math shine.
         </p>
     </div>
 
+    <!--
+    <div class="sliderWrapper">
+        <input type="range" min="0" max="10" value="0" step="1" id="inputRadius"><span id="val"></span>
+    </div>
+    -->
+
+    <div id="myInputs"></div>
+
     <div id="myContainer"></div>
 
     <div id="text2">
-        <p>
-            Print Screen:
-        </p>
+        <p>Screenshot:</p>
     </div>
     
     <div class="gridContainer">
@@ -44,5 +49,17 @@
         <div class="gridItem"><img src="assets/imgs/7.png" width="100%" alt=""></div>
         <div class="gridItem"><img src="assets/imgs/8.png" width="100%" alt=""></div>
     </div>
+
+    <footer><i>this is beta</i></footer>
+
+    <script src="CCapture.all.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+    <!--
+    <script type="text/javascript" src="assets/dist/gif.js"></script>
+    <script type="text/javascript" src="assets/dist/gif.worker.js"></script>
+    -->
+    <script type="text/javascript" src="TORUSexperiment.js"></script>
 </body>
+
 </html>

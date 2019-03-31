@@ -2,20 +2,22 @@ html, body {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(40, 40, 40);
+    background-color: black;
 }
 h1 {
     color: white;
-    padding-left: 0.6em;
     /* font-family: 'Markazi Text', serif; */
     font-family: 'Teko', sans-serif;
-    font-size: 4em;
+    font-size: 7em;
+    text-align: center;
+    padding: 1em 0 3em 0;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 3em;
+    text-align: center;
 }
 a {
     color: white;
@@ -25,7 +27,7 @@ a:hover {
     color: greenyellow;
 }
 #text1 {
-    padding-bottom: 2em;
+    margin-bottom: 200px;
 }
 #text2 {
     padding-top: 2em;
@@ -40,6 +42,20 @@ a:hover {
 	align-items: center;
 	justify-content: center;
 }
+#myInputs {
+    font-size: 0.6em;
+    margin-bottom: 4em;
+}
+.inputs {
+    width: 60vw;
+    margin-left: 22%;
+}
 #myContainer {
-    background-color: black;
+    margin-bottom: 5em;
+}
+footer {
+    padding: 2em 2em;
+    color: white;
+    text-align: center;
+    font-size: 1.5wh;
 }
