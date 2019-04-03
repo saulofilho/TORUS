@@ -27,10 +27,13 @@ a:hover {
     color: greenyellow;
 }
 #text1 {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 #text2 {
     padding-top: 2em;
+}
+#myContainer {
+    margin-bottom: 3em;
 }
 .gridContainer {
 	display: grid;
@@ -44,14 +47,11 @@ a:hover {
 }
 #myInputs {
     font-size: 0.6em;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 .inputs {
     width: 60vw;
     margin-left: 22%;
-}
-#myContainer {
-    margin-bottom: 5em;
 }
 footer {
     padding: 2em 2em;
