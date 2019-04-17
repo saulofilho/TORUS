@@ -1,7 +1,7 @@
 var sliderRadius;
 var sliderTubeRadius;
-var sliderRotateX ;
-var sliderRotateY ;
+var sliderRotateX;
+var sliderRotateY;
 var sliderRotateZ;
 var sliderRate;
 
