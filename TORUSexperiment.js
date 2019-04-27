@@ -5,16 +5,6 @@ var sliderRotateY;
 var sliderRotateZ;
 var sliderRate;
 
-// CCapture
-var gifLength = 180;
-var capturer = new CCapture( {
-//  timeLimit: 5000,
-  framerate: 60,
-  format: 'gif',
-  workersPath: './js/',
-  verbose: true
-});
-
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight, WEBGL);
   canvas.parent('myContainer');
@@ -95,3 +85,9 @@ function draw() {
       background(0);
     }
 }
+
+$(document).ready(function() {
+  $("button").click(function() {
+    $("span").toggle();
+  })
+})
