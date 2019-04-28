@@ -7,6 +7,7 @@
 
 Play [here.](https://saulofilho.github.io/TORUS/)
 
+Some screenshots:
 
 ![Image](assets/imgs/1.png "Example 1")
 
