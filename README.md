@@ -1,6 +1,8 @@
 # Torus Experiment.
 
-## This is an experiment made with p5.js using the shape of [Torus][https://en.wikipedia.org/wiki/Torus]
+## This is an experiment made with p5.js using the shape of [Torus][link]
+
+[link]: https://en.wikipedia.org/wiki/Torus
 
 Play [here](https://saulofilho.github.io/TORUS/)
 
