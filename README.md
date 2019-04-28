@@ -1,10 +1,10 @@
 # TORUS EXPERIMENT.
 
-## This is an experiment made with p5.js using the shape of [Torus].[link]
+### This is an experiment made with p5.js working over the variables of [Torus.][link]
 
 [link]: https://en.wikipedia.org/wiki/Torus
 
-Play [here](https://saulofilho.github.io/TORUS/)
+Play [here.](https://saulofilho.github.io/TORUS/)
 
 
 ![Image](assets/imgs/1.png "Example 1")
