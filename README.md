@@ -8,3 +8,5 @@ Play [here](https://saulofilho.github.io/TORUS/)
 
 
 ![ex10](assets/imgs/1.png "Example 1")
+
+![Image](assets/imgs/2.png "icon")
