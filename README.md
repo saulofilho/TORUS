@@ -1,5 +1,6 @@
 # TORUS EXPERIMENT.
 
+![Gif](assets/imgs/torus.gif "Gif 1")
 ### This is an experiment made with p5.js working over the variables of [Torus.][link]
 
 [link]: https://en.wikipedia.org/wiki/Torus
