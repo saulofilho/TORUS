@@ -1,8 +1,10 @@
 # TORUS.github.io
 Torus Experiment.
-<br>
-<br>
-<a href="https://en.wikipedia.org/wiki/Torus" target="_blank">About.</a>
-<br>
-<br>
-<a href="https://saulofilho.github.io/TORUS/" target="_blank">Play.</a>
+
+This is an experiment made with p5.js using the shape of [Torus]
+(https://en.wikipedia.org/wiki/Torus)
+
+Play [here](https://saulofilho.github.io/TORUS/)
+
+
+![ex10](assets/imgs/1.png "Example 1")
