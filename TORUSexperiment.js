@@ -57,6 +57,13 @@ function setup() {
 
   let textRotateZ = createP('Rotate Z');
   textRotateZ.parent('myInputs');
+  saveButton = createButton('save image');
+  saveButton.mousePressed(saveImg);
+  saveButton.parent('but');
+}
+
+function saveImg() {
+  save('TORUS.png');
 }
 
 function windowResized() {
