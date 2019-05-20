@@ -70,6 +70,7 @@ canvas {
 #myInputs {
     font-size: 0.6em;
     margin-bottom: 3em;
+    padding-top: 3em;
 }
 .inputs {
     width: 60vw;
