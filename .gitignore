@@ -1,10 +1,10 @@
-  
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+tutorial-webpack/yarn.lock
 
 # Runtime data
 pids
@@ -63,3 +63,6 @@ typings/
 
 # DS_Store
 **/.DS_Store
+
+# Local Netlify folder
+.netlify

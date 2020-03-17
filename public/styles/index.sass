@@ -1,0 +1,59 @@
+*, 
+*::before,
+*::after
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    background: black
+    color: white
+
+.container
+    max-width: 900px
+    margin: 0 auto
+
+.row
+    display: flex
+    justify-content: center
+
+.torus-main
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    color: white
+    flex-flow: column
+
+.torus-main p:nth-child(1)
+    letter-spacing: 40px
+
+.about
+    height: 100vh
+    background: green
+    display: flex
+    align-items: center
+    justify-content: center
+
+.about-text,
+.about-img,
+.how-img,
+.how-text
+    width: 400px
+
+.about-img,
+.how-img
+    background: red
+
+.how
+    height: 100vh
+    background: blue
+    display: flex
+    align-items: center
+    justify-content: center
+
+canvas 
+    border: 1px solid gray
+    width: 900px
+
+#myContainer 
+    display: block
+    padding-top: 0.5em
