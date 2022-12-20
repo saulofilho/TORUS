@@ -6,7 +6,7 @@ var sliderRotateZ;
 var sliderRate;
 
 function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight, WEBGL);
+  var canvas = createCanvas(1360, 1700, WEBGL);
   canvas.parent('myContainer');
   background(0);
 
@@ -67,7 +67,7 @@ function saveImg() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(1360, 1700);
 }
 
 function draw() {
